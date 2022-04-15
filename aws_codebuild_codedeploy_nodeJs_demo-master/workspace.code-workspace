@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "build_scripts"
+		},
+		{
+			"path": "deployment_scripts"
+		},
+		{
+			"path": "docs"
+		},
+		{
+			"path": "eks_cicd"
+		},
+		{
+			"path": "k8s"
+		},
+		{
+			"path": "k8s_reskill"
+		}
+	]
+}
