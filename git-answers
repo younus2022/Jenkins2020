@@ -1,0 +1,41 @@
+Personal access tokens (PATs) are an alternative to using passwords for authentication to GitHub when using the GitHub API or the command line.
+
+If you want to use a PAT to access resources owned by an organization that uses SAML SSO, you must authorize the PAT. For more information, see "About authentication with SAML single sign-on" and "Authorizing a personal access token for use with SAML single sign-on" in the GitHub Enterprise Cloud documentation.
+
+As a security precaution, GitHub automatically removes personal access tokens that haven't been used in a year. To provide additional security, we highly recommend adding an expiration to your personal access tokens.
+
+Generated token.
+
+Only enterprise github has options to configure single sign on .
+
+Cherry picking can cause duplicate commits and many scenarios where cherry picking would work, traditional merges are preferred instead. With that said git cherry-pick is a handy tool for a few scenarios.
+
+git cherry-pick
+
+
+GIT FETCH:  git fetch is a primary command used to download contents from a remote repository. git fetch is used in conjunction with git remote, git branch, git checkout, and git reset to update a local repository to the state of a remote.
+git fetch has similar behavior to git pull, however, git fetch can be considered a safer, nondestructive version.
+
+delete branch :git branch -d branchname
+
+
+rename branch: git branch -m branchname
+
+A fast-forward merge can occur when there is a linear path from the current branch tip to the target branch. Instead of “actually” merging the branches, all Git has to do to integrate the histories is move (i.e., “fast forward”) the current branch tip up to the target branch tip. This effectively combines the histories, since all of the commits reachable from the target branch are now available through the current one.
+
+
+git pull:The git pull command is used to fetch and download content from a remote repository and immediately update the local repository to match that content. Merging remote upstream changes into your local repository is a common task in Git-based collaboration work flows. The git pull command is actually a combination of two other commands, git fetch followed by git merge.
+
+
+pull request:pull requests are a mechanism for a developer to notify team members that they have completed a feature. Once their feature branch is ready, the developer files a pull request.. This lets everybody involved know that they need to review the code and merge it into the main branch.All of this activity is tracked directly inside of the pull request.
+
+
+rebase: Rebase is an action in Git that allows you to rewrite commits from one branch onto another branch. Essentially, Git is deleting commits from one branch and adding them onto another.
+git rebase <base>
+
+git stash:git stash temporarily shelves (or stashes) changes you've made to your working copy so you can work on something else, and then come back and re-apply them later on. Stashing is handy if you need to quickly switch context and work on something else, but you're mid-way through a code change and aren't quite ready to commit.
+
+git stash
+
+
+
